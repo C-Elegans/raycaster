@@ -11,9 +11,9 @@
 		0A2521181DC2582900CD27F3 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2521171DC2582900CD27F3 /* SDL2.framework */; };
 		0A25211B1DC25C2900CD27F3 /* framebuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2521191DC25C2900CD27F3 /* framebuffer.cpp */; };
 		0A25211E1DC26A2F00CD27F3 /* Vec2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A25211C1DC26A2F00CD27F3 /* Vec2.cpp */; };
-		0A2521211DC26D2100CD27F3 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A25211F1DC26D2100CD27F3 /* Line.cpp */; };
 		0A2521241DC26E2F00CD27F3 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2521221DC26E2F00CD27F3 /* Game.cpp */; };
 		0A2521271DC26F8A00CD27F3 /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2521251DC26F8A00CD27F3 /* Ray.cpp */; };
+		0A25212A1DC29EC000CD27F3 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2521281DC29EC000CD27F3 /* Line.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,12 +36,12 @@
 		0A25211A1DC25C2900CD27F3 /* framebuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = framebuffer.hpp; sourceTree = "<group>"; };
 		0A25211C1DC26A2F00CD27F3 /* Vec2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vec2.cpp; sourceTree = "<group>"; };
 		0A25211D1DC26A2F00CD27F3 /* Vec2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vec2.hpp; sourceTree = "<group>"; };
-		0A25211F1DC26D2100CD27F3 /* Line.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Line.cpp; path = ../Line.cpp; sourceTree = "<group>"; };
-		0A2521201DC26D2100CD27F3 /* Line.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Line.hpp; path = ../Line.hpp; sourceTree = "<group>"; };
 		0A2521221DC26E2F00CD27F3 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		0A2521231DC26E2F00CD27F3 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 		0A2521251DC26F8A00CD27F3 /* Ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
 		0A2521261DC26F8A00CD27F3 /* Ray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ray.hpp; sourceTree = "<group>"; };
+		0A2521281DC29EC000CD27F3 /* Line.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Line.cpp; sourceTree = "<group>"; };
+		0A2521291DC29EC000CD27F3 /* Line.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Line.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +76,13 @@
 		0A25210E1DC2575300CD27F3 /* raycaster */ = {
 			isa = PBXGroup;
 			children = (
+				0A2521281DC29EC000CD27F3 /* Line.cpp */,
+				0A2521291DC29EC000CD27F3 /* Line.hpp */,
 				0A25210F1DC2575300CD27F3 /* main.cpp */,
 				0A2521191DC25C2900CD27F3 /* framebuffer.cpp */,
 				0A25211A1DC25C2900CD27F3 /* framebuffer.hpp */,
 				0A25211C1DC26A2F00CD27F3 /* Vec2.cpp */,
 				0A25211D1DC26A2F00CD27F3 /* Vec2.hpp */,
-				0A25211F1DC26D2100CD27F3 /* Line.cpp */,
-				0A2521201DC26D2100CD27F3 /* Line.hpp */,
 				0A2521221DC26E2F00CD27F3 /* Game.cpp */,
 				0A2521231DC26E2F00CD27F3 /* Game.hpp */,
 				0A2521251DC26F8A00CD27F3 /* Ray.cpp */,
@@ -159,8 +159,8 @@
 			files = (
 				0A2521271DC26F8A00CD27F3 /* Ray.cpp in Sources */,
 				0A25211E1DC26A2F00CD27F3 /* Vec2.cpp in Sources */,
-				0A2521211DC26D2100CD27F3 /* Line.cpp in Sources */,
 				0A2521101DC2575300CD27F3 /* main.cpp in Sources */,
+				0A25212A1DC29EC000CD27F3 /* Line.cpp in Sources */,
 				0A25211B1DC25C2900CD27F3 /* framebuffer.cpp in Sources */,
 				0A2521241DC26E2F00CD27F3 /* Game.cpp in Sources */,
 			);
